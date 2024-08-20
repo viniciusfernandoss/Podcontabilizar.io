@@ -1,0 +1,23 @@
+@import url('header.css');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte-inter: "Inter", sans-serif;
+    --fonte-montserrat: "Montserrat", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body{
+    width: 100%;
+    background-color: black;
+    overflow: scroll;
+}
