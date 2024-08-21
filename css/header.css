@@ -1,3 +1,69 @@
+header{
+    background-image: url('../img/background-header.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white
+}
+#navbar-header{
+    top: 0px;
+    position: fixed;
+    width: 100%;
+}
+#fale-conosco{
+    background-color: #BD0803;
+    color: white;
+    padding: 0.5% 1.2%;
+    border-radius: 24px;
+}
+
+
+
+.nav-item a{
+    color: aliceblue;
+}
+.nav-item a:hover{
+    color: #BD0803;
+}
+.nav-item{
+    border-bottom: 0px solid #BD0803;
+}
+.nav-item:hover{
+    color: #BD0803;
+    border-bottom: 1px solid #BD0803;
+}
+
+
+
+nav{
+    background-color: transparent;
+}
+.navbar-brand{
+    width: 35%;
+}
 .logo-podcontabilizar{
-    width: 30%;
+    width: 70%;
+}
+
+#inicio{
+    padding-top: 10vh;
+}
+
+.botoes-inicio{
+    color: white;
+}
+
+.btn-entre-em-contato-inicio{
+    background-color: #BD0803;
+    color: white;
+    text-decoration: none;
+    border-radius: 24px;
+    padding: 0.5rem 1rem;
+}
+
+.btn-assistir-canal-inicio{
+    background-color: #171E2D;
+    color: white;
+    text-decoration: none;
+    border-radius: 24px;
+    padding: 0.5rem 1rem;
 }

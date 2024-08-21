@@ -1,0 +1,27 @@
+.convidados{
+    background-image: url('../img/background-convidados.png');
+    background-size: cover;
+    background-position: center;
+    color: white
+}
+
+#convidados{
+
+}
+
+.convidados-cards{
+    background-color: blue;
+    height: 300px;
+}
+
+
+
+
+
+#ultimos-episodios{
+
+}
+.ultimos-eps{
+    background-color: blue;
+    height: 70px;
+}
