@@ -5,3 +5,12 @@ footer{
 footer img{
     width: 50%;
 }
+
+#nav-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#redes-footer a{
+    color: white;
+}

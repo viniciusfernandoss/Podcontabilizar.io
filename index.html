@@ -55,11 +55,11 @@
             <div class="row">
                 <div class="col-12 col-lg-6 d-flex flex-column justify-content-center">
                     <h1>
-                        Pod<strong>Contabilizar</strong>
+                        <strong>Pod</strong>Contabilizar
                     </h1>
-                    <h2>
+                    <h4 class="mb-3">
                         O <strong>PODCAST</strong> QUE <strong>CONTABILIZA</strong> HISTÓRIAS
-                    </h2>
+                    </h4>
                     <p>
                         Um bate-papo entre empresários contábeis para inspirar contadores. Ouça histórias de sucesso e lições valiosas com convidados de destaque no ramo da contabilidade.
                     </p>
@@ -84,7 +84,7 @@
                     section redes sociais
         ----------------------------------------------
         -->
-        <div class="container-fluid py-4" id="redes-sociais">
+        <div class="container-fluid py-5" id="redes-sociais">
             <div class="row">
                 <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
                     <div class="text-redes-sociais">
@@ -92,7 +92,7 @@
                         <h2>nossas redes</h2>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center" id="links-redes">
                     <a class="nav-link mx-4" href="https://www.instagram.com/carlossantosdmc/" target="_blank">
                         <i class="bi bi-instagram"></i>
                     </a>
@@ -114,13 +114,13 @@
         ----------------------------------------------
         -->
         <div class="background-about py-5">
-            <div class="container" id="content1-about">
-                <div class="row">
-                    <div class="col-12 col-lg-6" id="foto-carlos-about">
+            <div class="container pt-5" id="content1-about">
+                <div class="row content1-row-about">
+                    <div class="col-12 col-lg-5" id="foto-carlos-about">
                         <img class="img-fluid" src="img/carlos-entrevistando.png" alt="Carlos Entrevistando">
                     </div>
-                    <div class="col-12 col-lg-6 d-flex flex-column  justify-content-center">
-                        <div class="titulo-content1 d-flex">
+                    <div class="col-12 col-lg-7 d-flex flex-column  justify-content-center">
+                        <div class="titulo-content1 d-flex mb-4">
                             <img src="img/icon-titulo-about.png" alt="">
                             <h1>SOBRE</h1>
                         </div>
@@ -132,7 +132,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row d-flex flex-row-reverse">
+                <div class="row d-flex flex-row-reverse content2-row-about">
                     <div class="col-12 col-lg-6">
                         <img class="img-fluid" src="img/foto-carlos.png" alt="Carlos Santos">
                     </div>
@@ -149,19 +149,36 @@
                     </div>
                 </div>
             </div>
-            <div class="container pt-5">
-                <div class="row pt-5">
+            <div class="container pt-5" id="content2-about">
+                <div class="row py-5">
                     <div class="col-12 text-center">
                         <h1>TEMAS ABORDADOS</h1>
                         <img src="img/icon-titulo-about.png" alt="">
                     </div>
                 </div>
-                <div class="row gap-3 justify-content-center pt-3">
-                    <div class="col-12 col-lg-3 temas"></div>
-                    <div class="col-12 col-lg-3 temas"></div>
-                    <div class="col-12 col-lg-3 temas"></div>
-                    <div class="col-12 col-lg-3 temas"></div>
-                    <div class="col-12 col-lg-3 temas"></div>
+                <div class="row gap-3 justify-content-center py-3">
+                    <div class="col-12 col-lg-3 d-flex flex-column justify-content-center align-items-center temas">
+                        <img src="icons/icone-tema1.png" alt="Icone Temas" class="mb-2">
+                        <p>Empreendedorismo</p>
+                    </div>
+                    <div class="col-12 col-lg-3 d-flex flex-column justify-content-center align-items-center temas">
+                        <img src="icons/icone-tema2.png" alt="Icone Temas" class="mb-2">
+                        <p>Experiências Profissionais</p>
+                    </div>
+                    <div class="col-12 col-lg-3 d-flex flex-column justify-content-center align-items-center temas text-center">
+                        <img src="icons/icone-tema3.png" alt="Icone Temas" class="mb-2">
+                        <p>Motivações a ser 
+                            Empreendedor
+                            Contábil</p>
+                    </div>
+                    <div class="col-12 col-lg-3 d-flex flex-column justify-content-center align-items-center temas">
+                        <img src="icons/icone-tema4.png" alt="Icone Temas" class="mb-2">
+                        <p>Valores e Ideais que defende</p>
+                    </div>
+                    <div class="col-12 col-lg-3 d-flex flex-column justify-content-center align-items-center temas">
+                        <img src="icons/icone-tema5.png" alt="Icone Temas" class="mb-2">
+                        <p>Jornada para o Sucesso.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -172,36 +189,162 @@
         -->
         <section class="convidados py-5">
             <div class="container" id="convidados">
-                <div class="row py-3">
+                <div class="row py-3" id="convidados2">
                     <div class="col-12 text-center">
                         <h1>CONVIDADOS QUE<br> PARTICIPARAM</h1>
                         <img src="img/icon-titulo-about.png" alt="">
                     </div>
                 </div>
-                <div class="row gap-5 justify-content-center">
-                    <div class="col-12 col-lg-2 convidados-cards"></div>
-                    <div class="col-12 col-lg-2 convidados-cards"></div>
-                    <div class="col-12 col-lg-2 convidados-cards"></div>
-                    <div class="col-12 col-lg-2 convidados-cards"></div>
-                    <div class="col-12 col-lg-2 convidados-cards"></div>
-                    <div class="col-12 col-lg-2 convidados-cards"></div>
-                    <div class="col-12 col-lg-2 convidados-cards"></div>
-                    <div class="col-12 col-lg-2 convidados-cards"></div>
+                <div class="row row-cols-4  justify-content-center">
+                    <div class="col-12 col-lg-3 convidados-cards py-5 text-center mx-2">
+                        <img src="img/foto-convidado7.jpeg" alt="Foto convidado">
+                        <h1 class="text-center">
+                            Genyffer Queiroz
+                        </h1>
+                        <h6>Profissão</h6>
+                        <div class="redes mb-5">
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+                        </div>
+                        <a href="#" class="rounded-5">
+                            <i class="bi bi-youtube"></i>
+                            Assistir Episódio
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-3 convidados-cards py-5 text-center mx-2">
+                        <img src="img/foto-convidado7.jpeg" alt="Foto convidado">
+                        <h1 class="text-center">
+                            Genyffer Queiroz
+                        </h1>
+                        <h6>Profissão</h6>
+                        <div class="redes mb-5">
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+                        </div>
+                        <a href="#" class="rounded-5">
+                            <i class="bi bi-youtube"></i>
+                            Assistir Episódio
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-3 convidados-cards py-5 text-center mx-2">
+                        <img src="img/foto-convidado7.jpeg" alt="Foto convidado">
+                        <h1 class="text-center">
+                            Genyffer Queiroz
+                        </h1>
+                        <h6>Profissão</h6>
+                        <div class="redes mb-5">
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+                        </div>
+                        <a href="#" class="rounded-5">
+                            <i class="bi bi-youtube"></i>
+                            Assistir Episódio
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-3 convidados-cards py-5 text-center mx-2">
+                        <img src="img/foto-convidado7.jpeg" alt="Foto convidado">
+                        <h1 class="text-center">
+                            Genyffer Queiroz
+                        </h1>
+                        <h6>Profissão</h6>
+                        <div class="redes mb-5">
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+                        </div>
+                        <a href="#" class="rounded-5">
+                            <i class="bi bi-youtube"></i>
+                            Assistir Episódio
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-3 convidados-cards py-5 text-center mx-2">
+                        <img src="img/foto-convidado7.jpeg" alt="Foto convidado">
+                        <h1 class="text-center">
+                            Genyffer Queiroz
+                        </h1>
+                        <h6>Profissão</h6>
+                        <div class="redes mb-5">
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+                        </div>
+                        <a href="#" class="rounded-5">
+                            <i class="bi bi-youtube"></i>
+                            Assistir Episódio
+                        </a>
+                    </div> 
                 </div>
             </div>
-            <div class="container py-5" id="ultimos-episodios">
+            <div class="container d-flex flex-column align-items-center py-5" id="ultimos-episodios">
                 <div class="row py-3">
                     <div class="col-12 text-center">
                         <h1>ÚLTIMOS EPISÓDIOS</h1>
                         <img src="img/icon-titulo-about.png" alt="">
                     </div>
                 </div>
-                <div class="row gap-5 justify-content-center">
-                    <div class="col-12 col-lg-2 ultimos-eps"></div>
-                    <div class="col-12 col-lg-2 ultimos-eps"></div>
-                    <div class="col-12 col-lg-2 ultimos-eps"></div>
-                    <div class="col-12 col-lg-2 ultimos-eps"></div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-3 ultimos-eps">
+                        <img src="img/padcast-video1.png" alt="Capa Podcast">
+                        <p>
+                            #09 | COMO CRESCER NA CONTABILIDADE COM 6 OU MAIS CLIENTES POR MÊS!
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-3 ultimos-eps">
+                        <img src="img/padcast-video1.png" alt="Capa Podcast">
+                        <p>
+                            #09 | COMO CRESCER NA CONTABILIDADE COM 6 OU MAIS CLIENTES POR MÊS!
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-3 ultimos-eps">
+                        <img src="img/padcast-video1.png" alt="Capa Podcast">
+                        <p>
+                            #09 | COMO CRESCER NA CONTABILIDADE COM 6 OU MAIS CLIENTES POR MÊS!
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-3 ultimos-eps">
+                        <img src="img/padcast-video1.png" alt="Capa Podcast">
+                        <p>
+                            #09 | COMO CRESCER NA CONTABILIDADE COM 6 OU MAIS CLIENTES POR MÊS!
+                        </p>
+                    </div>
                 </div>
+                <a class="text-center rounded-5" href="#">
+                    <i class="bi bi-youtube"></i>
+                    Ver mais no canal
+                </a>
             </div>
         </section>
     </main>
@@ -218,13 +361,13 @@
                     <p>© Copyright:</p>
                     <img class="" src="img/logo-footer.png" alt="Logo footer">
                 </div>
-                <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center" id="nav-footer">
                     <a class="nav-footer mx-4" href="#">Sobre</a>
                     <a class="nav-footer mx-4" href="#">Temas</a>
                     <a class="nav-footer mx-4" href="#">Convidados</a>
                     <a class="nav-footer mx-4" href="#">Episódios</a>
                 </div>
-                <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center" id="redes-footer">
                     <a class="nav-link-footer mx-2" href="https://www.instagram.com/carlossantosdmc/" target="_blank">
                         <i class="bi bi-instagram"></i>
                     </a>

@@ -6,22 +6,62 @@
 }
 
 #convidados{
-
+    font-family: var(--fonte-montserrat);
+}
+#convidados2 h1{
+    font-weight: 400;
+    color: rgba(189, 8, 3, 1);
 }
 
 .convidados-cards{
-    background-color: blue;
-    height: 300px;
+    background-color: rgba(15, 20, 31, 1);
+}
+.convidados-cards h1{
+    color: white;
+    font-weight: 600;
 }
 
-
+.convidados-cards img{
+    border-radius: 100%;
+    width: 50%;
+    border: 2px solid rgba(189, 8, 3, 1);
+}
+.convidados-cards a{
+    background-color: rgba(23, 30, 45, 1);
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.redes{
+    
+}
+.redes a{
+    text-decoration: none;
+    border-radius: 100%;
+}
 
 
 
 #ultimos-episodios{
 
 }
-.ultimos-eps{
-    background-color: blue;
-    height: 70px;
+#ultimos-episodios h1{
+    color: rgba(189, 8, 3, 1);
+    font-weight: 400;
+}
+.ultimos-eps img{
+    width: 100%;
+}
+
+#ultimos-episodios a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(23, 30, 45, 1);
+    padding: 0.6rem 1.5rem;
+    transition: 0.5s;
+}
+
+#ultimos-episodios a:hover{
+    color: rgba(23, 30, 45, 1);
+    background-color: white;
 }
