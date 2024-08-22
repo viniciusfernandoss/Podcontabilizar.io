@@ -61,3 +61,12 @@
     border: 2px solid #BD0803;
     border-radius: 32px;
 }
+
+@media (max-width: 992px){
+    .temas{
+        height: 125px;
+        border: 2px solid #BD0803;
+        border-radius: 32px;
+        margin: 0 50px;
+    }
+}

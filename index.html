@@ -14,9 +14,7 @@
     <!-- Link Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-<body>
-
-    
+<body> 
 
     <!-- 
     ----------------------------------------------
@@ -35,10 +33,10 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item mx-3">
-                    <a class="nav-link" aria-current="page" href="#">Sobre</a>
+                    <a class="nav-link" aria-current="page" href="#content1-about">Sobre</a>
                   </li>
                   <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Temas</a>
+                    <a class="nav-link" href="#content2-about">Temas</a>
                   </li>
                   <li class="nav-item mx-3">
                     <a class="nav-link" href="#">Convidados</a>
@@ -71,8 +69,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
-                    <img src="img/microfone.png" alt="microfone" class="img-fluid">
+                <div class="col-12 col-lg-6 d-none d-lg-block" id="foto-microfone">
+                    <img src="img/microfone.png" alt="microfone" class="img-fluid micronofe-foto">
                 </div>
             </div>
         </div>
@@ -156,7 +154,7 @@
                         <img src="img/icon-titulo-about.png" alt="">
                     </div>
                 </div>
-                <div class="row gap-3 justify-content-center py-3">
+                <div class="row gap-4 justify-content-center py-3">
                     <div class="col-12 col-lg-3 d-flex flex-column justify-content-center align-items-center temas">
                         <img src="icons/icone-tema1.png" alt="Icone Temas" class="mb-2">
                         <p>Empreendedorismo</p>
@@ -195,117 +193,201 @@
                         <img src="img/icon-titulo-about.png" alt="">
                     </div>
                 </div>
-                <div class="row row-cols-4  justify-content-center">
-                    <div class="col-12 col-lg-3 convidados-cards py-5 text-center mx-2">
-                        <img src="img/foto-convidado7.jpeg" alt="Foto convidado">
-                        <h1 class="text-center">
-                            Genyffer Queiroz
-                        </h1>
-                        <h6>Profissão</h6>
-                        <div class="redes mb-5">
-                            <a href="#">
-                                <i class="bi bi-instagram"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-linkedin"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-twitter-x"></i>
-                            </a>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-3 mb-4 convidados-cards d-flex justify-content-center">
+                            <div class="content-card py-4 text-center rounded-5">
+                                <img src="img/foto-convidado7.jpeg" alt="Foto convidado">
+                                <h1 class="text-center">
+                                    Genyffer<br> Queiroz
+                                </h1>
+                                <h6>Profissão</h6>
+                                <div class="redes py-3 mb-3">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                </div>
+                                <a href="#" class="rounded-5">
+                                    <i class="bi bi-youtube"></i>
+                                    Assistir Episódio
+                                </a>
+                            </div>
                         </div>
-                        <a href="#" class="rounded-5">
-                            <i class="bi bi-youtube"></i>
-                            Assistir Episódio
-                        </a>
+                        <div class="col-12 col-lg-3 mb-4 convidados-cards d-flex justify-content-center">
+                            <div class="content-card py-4 text-center rounded-5">
+                                <img src="img/foto-convidado6.jpeg" alt="Foto convidado">
+                                <h1 class="text-center">
+                                    Claudiane<br> Delis
+                                </h1>
+                                <h6>Profissão</h6>
+                                <div class="redes py-3 mb-3">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                </div>
+                                <a href="#" class="rounded-5">
+                                    <i class="bi bi-youtube"></i>
+                                    Assistir Episódio
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 mb-4 convidados-cards d-flex justify-content-center">
+                            <div class="content-card py-4 text-center rounded-5">
+                                <img src="img/foto-convidado5.jpeg" alt="Foto convidado">
+                                <h1 class="text-center">
+                                    Rodrigor<br> Gonzaga
+                                </h1>
+                                <h6>Profissão</h6>
+                                <div class="redes py-3 mb-3">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                </div>
+                                <a href="#" class="rounded-5">
+                                    <i class="bi bi-youtube"></i>
+                                    Assistir Episódio
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 mb-4 convidados-cards d-flex justify-content-center">
+                            <div class="content-card py-4 text-center rounded-5">
+                                <img src="img/foto-convidado4.jpeg" alt="Foto convidado">
+                                <h1 class="text-center">
+                                    Yuri<br> Rocha
+                                </h1>
+                                <h6>Profissão</h6>
+                                <div class="redes py-3 mb-3">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                </div>
+                                <a href="#" class="rounded-5">
+                                    <i class="bi bi-youtube"></i>
+                                    Assistir Episódio
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 mb-4 convidados-cards d-flex justify-content-center">
+                            <div class="content-card py-4 text-center rounded-5">
+                                <img src="img/foto-convidado8.jpeg" alt="Foto convidado">
+                                <h1 class="text-center">
+                                    João<br> Silva
+                                </h1>
+                                <h6>Profissão</h6>
+                                <div class="redes py-3 mb-3">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                </div>
+                                <a href="#" class="rounded-5">
+                                    <i class="bi bi-youtube"></i>
+                                    Assistir Episódio
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 mb-4 convidados-cards d-flex justify-content-center">
+                            <div class="content-card py-4 text-center rounded-5">
+                                <img src="img/foto-convidado3.jpeg" alt="Foto convidado">
+                                <h1 class="text-center">
+                                    Simone<br> Luduvice
+                                </h1>
+                                <h6>Profissão</h6>
+                                <div class="redes py-3 mb-3">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                </div>
+                                <a href="#" class="rounded-5">
+                                    <i class="bi bi-youtube"></i>
+                                    Assistir Episódio
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 mb-4 convidados-cards d-flex justify-content-center">
+                            <div class="content-card py-4 text-center rounded-5">
+                                <img src="img/foto-convidado1.jpeg" alt="Foto convidado">
+                                <h1 class="text-center">
+                                    Weslly<br> Barbosa
+                                </h1>
+                                <h6>Profissão</h6>
+                                <div class="redes py-3 mb-3">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                </div>
+                                <a href="#" class="rounded-5">
+                                    <i class="bi bi-youtube"></i>
+                                    Assistir Episódio
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 mb-4 convidados-cards d-flex justify-content-center">
+                            <div class="content-card py-4 text-center rounded-5">
+                                <img src="img/foto-convidado2.jpeg" alt="Foto convidado">
+                                <h1 class="text-center">
+                                    Elvis<br> Barbosa
+                                </h1>
+                                <h6>Profissão</h6>
+                                <div class="redes py-3 mb-3">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                </div>
+                                <a href="#" class="rounded-5">
+                                    <i class="bi bi-youtube"></i>
+                                    Assistir Episódio
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-3 convidados-cards py-5 text-center mx-2">
-                        <img src="img/foto-convidado7.jpeg" alt="Foto convidado">
-                        <h1 class="text-center">
-                            Genyffer Queiroz
-                        </h1>
-                        <h6>Profissão</h6>
-                        <div class="redes mb-5">
-                            <a href="#">
-                                <i class="bi bi-instagram"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-linkedin"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-twitter-x"></i>
-                            </a>
-                        </div>
-                        <a href="#" class="rounded-5">
-                            <i class="bi bi-youtube"></i>
-                            Assistir Episódio
-                        </a>
-                    </div>
-                    <div class="col-12 col-lg-3 convidados-cards py-5 text-center mx-2">
-                        <img src="img/foto-convidado7.jpeg" alt="Foto convidado">
-                        <h1 class="text-center">
-                            Genyffer Queiroz
-                        </h1>
-                        <h6>Profissão</h6>
-                        <div class="redes mb-5">
-                            <a href="#">
-                                <i class="bi bi-instagram"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-linkedin"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-twitter-x"></i>
-                            </a>
-                        </div>
-                        <a href="#" class="rounded-5">
-                            <i class="bi bi-youtube"></i>
-                            Assistir Episódio
-                        </a>
-                    </div>
-                    <div class="col-12 col-lg-3 convidados-cards py-5 text-center mx-2">
-                        <img src="img/foto-convidado7.jpeg" alt="Foto convidado">
-                        <h1 class="text-center">
-                            Genyffer Queiroz
-                        </h1>
-                        <h6>Profissão</h6>
-                        <div class="redes mb-5">
-                            <a href="#">
-                                <i class="bi bi-instagram"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-linkedin"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-twitter-x"></i>
-                            </a>
-                        </div>
-                        <a href="#" class="rounded-5">
-                            <i class="bi bi-youtube"></i>
-                            Assistir Episódio
-                        </a>
-                    </div>
-                    <div class="col-12 col-lg-3 convidados-cards py-5 text-center mx-2">
-                        <img src="img/foto-convidado7.jpeg" alt="Foto convidado">
-                        <h1 class="text-center">
-                            Genyffer Queiroz
-                        </h1>
-                        <h6>Profissão</h6>
-                        <div class="redes mb-5">
-                            <a href="#">
-                                <i class="bi bi-instagram"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-linkedin"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-twitter-x"></i>
-                            </a>
-                        </div>
-                        <a href="#" class="rounded-5">
-                            <i class="bi bi-youtube"></i>
-                            Assistir Episódio
-                        </a>
-                    </div> 
                 </div>
             </div>
             <div class="container d-flex flex-column align-items-center py-5" id="ultimos-episodios">
@@ -323,21 +405,21 @@
                         </p>
                     </div>
                     <div class="col-12 col-lg-3 ultimos-eps">
-                        <img src="img/padcast-video1.png" alt="Capa Podcast">
+                        <img src="img/padcast-video2.png" alt="Capa Podcast">
                         <p>
-                            #09 | COMO CRESCER NA CONTABILIDADE COM 6 OU MAIS CLIENTES POR MÊS!
+                            #08 | UMA HISTÓRIA INSPIRADORA E CHEIA DE DIFERENCIAÇÃO NO SERVIÇO DA CONTABILIDADE.
                         </p>
                     </div>
                     <div class="col-12 col-lg-3 ultimos-eps">
-                        <img src="img/padcast-video1.png" alt="Capa Podcast">
+                        <img src="img/padcast-video3.png" alt="Capa Podcast">
                         <p>
-                            #09 | COMO CRESCER NA CONTABILIDADE COM 6 OU MAIS CLIENTES POR MÊS!
+                            #07 | UMA HISTÓRIA DE SUCESSO E DESAFIOS DO CLT AO EMPREENDEDORISMO.
                         </p>
                     </div>
                     <div class="col-12 col-lg-3 ultimos-eps">
-                        <img src="img/padcast-video1.png" alt="Capa Podcast">
+                        <img src="img/padcast-video4.png" alt="Capa Podcast">
                         <p>
-                            #09 | COMO CRESCER NA CONTABILIDADE COM 6 OU MAIS CLIENTES POR MÊS!
+                            #06 | UMA HISTÓRIA DE CRESCIMENTO E ESTRATÉGIA PARA O MERCADO CONTÁBIL.
                         </p>
                     </div>
                 </div>

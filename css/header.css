@@ -7,28 +7,48 @@ header{
 #navbar-header{
     top: 0px;
     position: fixed;
+    z-index: 1000;
     width: 100%;
+    background-color: #0b0b15de;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
 }
 #fale-conosco{
     background-color: #BD0803;
     color: white;
-    padding: 0.5% 1.2%;
+    padding: 0.7% 1.4%;
     border-radius: 24px;
+    animation: pulse 1.5s infinite;
+}
+#fale-conosco:hover{
+    background-color: #720400;
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(136, 26, 26, 1);
+    }
+    70%{
+        box-shadow: 0 0 0 25px rgba(92, 168, 44, 0);
+    }
+    100%{
+        box-shadow: rgba(92, 168, 44, 0);
+    }
+    
 }
 
 
 
 .nav-item a{
-    color: aliceblue;
+    font-size: 1.2rem;
+    color: white;
 }
 .nav-item a:hover{
     color: #BD0803;
 }
 .nav-item{
-    border-bottom: 0px solid #BD0803;
+    border-bottom: 1px solid transparent;
 }
 .nav-item:hover{
-    color: #BD0803;
     border-bottom: 1px solid #BD0803;
 }
 
@@ -45,7 +65,7 @@ nav{
 }
 
 #inicio{
-    padding-top: 10vh;
+    margin-top: 13.5vh;
 }
 #inicio h1, h2, p{
     font-family: var(--fonte-montserrat);
@@ -99,4 +119,44 @@ nav{
 .btn-assistir-canal-inicio:hover{
     background-color: white;
     color: #171E2D;
+}
+
+#foto-microfone{
+    transform: scale(1.3);
+    transition: transform 0.3s ease-in-out;
+    animation: microfone 3s infinite;
+}
+
+@keyframes microfone{
+    0%{
+        transform: scale(1.3);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1.3);
+    }
+    
+}
+
+/* 
+    .content-card{
+    background-color: rgba(15, 20, 31, 1);
+    transition: transform 0.3s ease-in-out;
+}
+.content-card:hover{
+    transform: scale(1.11);
+}
+*/
+
+@media (max-width: 992px){
+    .navbar-brand{
+        width: 60%;
+    }
+    #inicio{
+        height: 70vh;
+        margin-top: 0;
+        display: flex;
+    }
 }
