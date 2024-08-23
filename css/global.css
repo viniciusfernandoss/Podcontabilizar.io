@@ -24,6 +24,9 @@ body{
     width: 100%;
     overflow: scroll;
 }
+main{
+    width: 100%;
+}
 html{
     background-color: rgb(11, 11, 21, 1);
 }
@@ -49,3 +52,15 @@ html{
     filter: blur(0px);
 }
 
+@media (max-width: 992px){
+    .scroll-animation{
+        transform: translateY(-30%);
+    }
+    
+    .scroll-animation2{
+        transform: translateY(30%);
+    }
+    .scroll-show{
+        transform: translateY(0%);
+    }
+}
