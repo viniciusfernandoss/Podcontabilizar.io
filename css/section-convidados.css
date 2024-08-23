@@ -8,7 +8,7 @@
 #convidados{
     font-family: var(--fonte-montserrat);
 }
-#convidados2 h1{
+#convidados2 h2{
     font-weight: 400;
     color: rgba(189, 8, 3, 1);
 }
@@ -23,7 +23,7 @@
 .content-card:hover{
     transform: scale(1.11);
 }
-.convidados-cards h1{
+.convidados-cards h2{
     color: white;
     font-weight: 600;
     font-size: 1.5rem;
@@ -61,7 +61,7 @@
 #ultimos-episodios{
 
 }
-#ultimos-episodios h1{
+#ultimos-episodios h2{
     color: rgba(189, 8, 3, 1);
     font-weight: 400;
 }

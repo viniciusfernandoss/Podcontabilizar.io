@@ -34,7 +34,7 @@
 .titulo-content1{
 
 }
-.titulo-content1 h1{
+.titulo-content1 h2{
     font-family: var(--fonte-montserrat);
     font-weight: 400;
     color: rgba(189, 8, 3, 1);
@@ -52,7 +52,7 @@
 #content2-about{
     font-family: var(--fonte-montserrat);
 }
-#content2-about h1{
+#content2-about h2{
     color: rgba(189, 8, 3, 1);
     font-weight: 400;
 }
@@ -60,6 +60,13 @@
     height: 200px;
     border: 2px solid #BD0803;
     border-radius: 32px;
+}
+
+@media (max-width: 1900px){
+    .btn-about{
+        width: 40%;
+        padding: 0.5rem 1rem;
+    }
 }
 
 @media (max-width: 992px){
