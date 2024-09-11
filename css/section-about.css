@@ -17,6 +17,7 @@
     transition: 0.5s;
 }
 .btn-about:hover{
+    animation: pulse 1.5s infinite;
     background-color: white;
     color: #BD0803;
 }
@@ -61,6 +62,11 @@
     border-radius: 32px;
 }
 
+#videos-tema{
+    border: 2px solid #BD0803;
+}
+
+
 @media (max-width: 1900px){
     .btn-about{
         padding: 0.5rem 1rem;
@@ -73,5 +79,35 @@
         border: 2px solid #BD0803;
         border-radius: 32px;
         margin: 0 50px;
+    }
+}
+
+.scroll-container {
+    width: 100vw;
+    overflow: hidden;
+    white-space: nowrap; /* Faz com que os itens não se movam para a linha seguinte */
+}
+
+.scroll-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 30s linear infinite;
+}
+
+.scroll-item {
+    display: inline-block;
+    border: 2px solid #BD0803;
+    
+    font-size: 24px;
+    height: 200px;
+    border-radius: 32px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%); /* Ajuste conforme a quantidade de duplicação */
     }
 }

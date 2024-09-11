@@ -16,14 +16,11 @@
     font-weight: 800;
 }
 
-#links-redes{
-
-}
-#links-redes a{
+.link-redes-sociais{
     font-size: 2rem;
     color: #BD0803;
     transition: 0.5s;
 }
-#links-redes a:hover{
+.link-redes-sociais:hover{
     color: white;
 }
