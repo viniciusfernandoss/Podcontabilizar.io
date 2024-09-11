@@ -87,6 +87,7 @@
     white-space: nowrap; /* Faz com que os itens não se movam para a linha seguinte */
 }
 
+
 .scroll-content {
     display: inline-block;
     white-space: nowrap;
