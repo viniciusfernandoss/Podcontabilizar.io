@@ -91,16 +91,21 @@
 .scroll-content {
     display: inline-block;
     white-space: nowrap;
-    animation: scroll 30s linear infinite;
+    animation: scroll 20s linear infinite;
 }
 
 .scroll-item {
     display: inline-block;
     border: 2px solid #BD0803;
     
+    width: 450px;
+
     font-size: 24px;
     height: 200px;
     border-radius: 32px;
+}
+.scroll-item p{
+    font-size: 1rem;
 }
 
 @keyframes scroll {
