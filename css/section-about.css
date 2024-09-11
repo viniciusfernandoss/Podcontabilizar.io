@@ -83,7 +83,6 @@
 }
 
 .scroll-container {
-    width: 100vw;
     overflow: hidden;
     white-space: nowrap; /* Faz com que os itens não se movam para a linha seguinte */
 }
