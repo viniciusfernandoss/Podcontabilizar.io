@@ -1,0 +1,40 @@
+#ultimo-episodio{
+
+}
+
+.content2-ultimo-episodio{
+    font-family: var(--fonte-montserrat);
+}
+.content2-ultimo-episodio h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.content2-ultimo-episodio p{
+    font-weight: 300;
+}
+.content2-ultimo-episodio a{
+    text-decoration: none;
+    color: white;
+    background-color: #BD0803;
+    transition: 0.5s;
+}
+.content2-ultimo-episodio a:hover{
+    color: #BD0803;
+    background-color: white;
+    animation: pulse 1.5s infinite;
+}
+.titulo-ultimo-episodio{
+
+}
+.titulo-ultimo-episodio h2{
+    color: #BD0803;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.titulo-ultimo-episodio img{
+
+}
+
+.txt-destaque-ultimo-episodio{
+    font-weight: 800;
+}
