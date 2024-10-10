@@ -1,11 +1,15 @@
 .background-about{
-    background-image: url('../img/background-about.png');
+    background-image: url('../img/background-about.webp');
     background-size: cover;
     background-position: center;
     color: white
 }
 #foto-carlos-about img{
     border-radius: 100%;
+}
+
+.content2-ultimo-episodio p{
+    font-size: 1rem;
 }
 
 .btn-about{
@@ -30,6 +34,13 @@
     font-weight: 400;
     color: rgba(189, 8, 3, 1);
 }
+.content1-row-about p, .content2-row-about p{
+    font-size: 1.2rem;
+}
+.content2-row-about p{
+    font-size: 1.15rem;
+}
+
 
 .titulo-content1{
 
@@ -40,14 +51,11 @@
     color: rgba(189, 8, 3, 1);
 }
 
-.content2-row-about p{
-    font-size: 0.9rem;
-}
-.content2-row-about{
-    
-}
 
 
+.img-content1-about-carlos{
+    width: 85%;
+}
 
 #content2-about{
     font-family: var(--fonte-montserrat);
@@ -56,6 +64,11 @@
     color: rgba(189, 8, 3, 1);
     font-weight: 400;
 }
+
+#titulo-carlos-about{
+    font-weight: 800;
+}
+
 .temas{
     height: 200px;
     border: 2px solid #BD0803;
@@ -79,6 +92,9 @@
         border: 2px solid #BD0803;
         border-radius: 32px;
         margin: 0 50px;
+    }
+    .content2-ultimo-episodio p{
+        font-size: 1.2rem;
     }
 }
 
@@ -105,7 +121,7 @@
     border-radius: 32px;
 }
 .scroll-item p{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 @keyframes scroll {

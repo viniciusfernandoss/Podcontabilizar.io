@@ -1,5 +1,5 @@
 .convidados{
-    background-image: url('../img/background-convidados.png');
+    background-image: url('../img/background-about.webp');
     background-size: cover;
     background-position: center;
     color: white
@@ -35,6 +35,7 @@
     border: 2.5px solid rgba(189, 8, 3, 1);
 }
 .convidados-cards a{
+    font-size: 1.1rem;
     background-color: rgba(23, 30, 45, 1);
     text-decoration: none;
     color: white;
@@ -56,6 +57,29 @@
     border-radius: 100%;
 }
 
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+.slider-wrapper .swiper-pagination-bullet {
+    background-color: #E22929;
+    height: 15px;
+    width: 15px;
+}
+
+.slider-wrapper .slider-wrapper-btn{
+    color: #E22929;
+    margin-top: -50px;
+    transition: 0.3s ease;
+}
+.slider-wrapper .slider-wrapper-btn:hover{
+    color: #fff;
+}
+
+
+
+
 
 
 #ultimos-episodios{
@@ -69,7 +93,12 @@
     width: 100%;
 }
 
+#ultimos-episodios p{
+    font-size: 1rem;
+}
+
 #ultimos-episodios a{
+    font-size: 1.2rem;
     text-decoration: none;
     color: white;
     background-color: rgba(23, 30, 45, 1);

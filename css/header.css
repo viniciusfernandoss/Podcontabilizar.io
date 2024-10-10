@@ -1,5 +1,5 @@
 header{
-    background-image: url('../img/background-header.jpeg');
+    background-image: url('../img/background-header.webp');
     background-size: cover;
     background-position: center;
     color: white
@@ -67,15 +67,13 @@ header{
 nav{
     background-color: transparent;
 }
-.navbar-brand{
-    width: 35%;
-}
+
 .logo-podcontabilizar{
-    width: 70%;
+    width: 100%;
 }
 
 #inicio{
-    padding: 13% 0 5% 0;
+    padding: 10% 0 5% 0;
 }
 #inicio h1, h2, p{
     font-family: var(--fonte-montserrat);
@@ -132,20 +130,20 @@ nav{
 }
 
 #foto-microfone img{
-    transform: scale(1.2);
+    transform: scale(1);
     transition: transform 0.3s ease-in-out;
     animation: microfone 3s infinite;
 }
 
 @keyframes microfone{
     0%{
-        transform: scale(1.2);
+        transform: scale(1);
     }
     50%{
-        transform: scale(1.4);
+        transform: scale(1.2);
     }
     100%{
-        transform: scale(1.2);
+        transform: scale(1);
     }
     
 }
@@ -165,7 +163,7 @@ nav{
         width: 60%;
     }
     #inicio{
-        height: 70vh;
+        height: 55vh;
         margin-top: 0;
         display: flex;
     }
