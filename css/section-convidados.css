@@ -57,24 +57,25 @@
     border-radius: 100%;
 }
 
-.slider-wrapper{
-    overflow: hidden;
-    max-width: 1200px;
-    margin: 0 70px 55px;
+.slider-wrapper .teste-e{
+    
 }
-.slider-wrapper .swiper-pagination-bullet {
+.swiper-pagination-bullet {
     background-color: #E22929;
     height: 15px;
     width: 15px;
 }
 
-.slider-wrapper .slider-wrapper-btn{
+.slider-wrapper-btn{
     color: #E22929;
     margin-top: -50px;
     transition: 0.3s ease;
 }
-.slider-wrapper .slider-wrapper-btn:hover{
+.slider-wrapper-btn:hover{
     color: #fff;
+}
+.swiper-slide{
+    margin-bottom: 50px;
 }
 
 

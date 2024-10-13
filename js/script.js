@@ -29,3 +29,23 @@ const swiper = new Swiper('.slider-wrapper', {
         }
     }
 });
+
+// const swiperOne = new Swiper('.swiper-ultimos-episodios-mobile', {
+//     breakpoints: {
+//              0: {
+//                  slidesPerView: 1
+//              },
+//              992: {
+//                  slidesPerView: 2
+//              },
+//              1024: {
+//                  slidesPerView: 3
+//              }
+//     },
+//     spaceBetween: 30, // Espaço entre os slides
+//     loop: true,
+//     pagination: {
+//       el: '.swiper-ultimos-episodios-mobile .swiper-pagination',
+//       clickable: true,
+//     },
+// });
